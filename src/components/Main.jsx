@@ -1,9 +1,10 @@
 import React from "react";
-export default function Main(){
+export default function Main({ name, total, isAmazing, fruit}){
     return(
         <main>
             <h1>
-                Main
+                Hello {name}
+
             </h1>
         </main>
     )
