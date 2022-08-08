@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Menubar />
+      <Menubar name={name} setName = {setName}/>
       <Main name={name} />
       <Footer />
     </>
