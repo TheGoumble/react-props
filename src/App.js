@@ -6,14 +6,11 @@ import "./App.css"
 
 function App() {
   const [name, setName] = useState("Mason")
-  
+
   return (
     <>
       <Menubar />
-      <Main 
-      name= {name} 
-      fruit="Banana" total={23} 
-      isAmazing={true} />
+      <Main name={name} />
       <Footer />
     </>
   )
