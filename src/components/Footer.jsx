@@ -1,8 +1,8 @@
 import React from "react"
-export default function Footer() {
+export default function Footer({name}) {
   return(
   <footer>
-    <p>&copy; 2022 Javier Andres Vargas</p>
+    <p>&copy; 2022 {name}</p>
   </footer>
   )
 }

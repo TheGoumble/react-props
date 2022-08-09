@@ -12,8 +12,8 @@ function App() {
     <>
       <Menubar name={name} setName = {setName}/>
       <Main name={name} />
-      <Coffee/>
-      <Footer />
+      <Coffee/> 
+      <Footer name ={name}/>
     </>
   )
 }
