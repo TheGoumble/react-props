@@ -1,0 +1,4 @@
+#student-content{
+    display: flex;
+    flex-direction: column;
+}

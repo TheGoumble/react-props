@@ -1,0 +1,15 @@
+header {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: top;
+  height: 4rem;
+  width: 100%;
+}
+
+header > button{
+    width: 5rem;
+    height: 3rem;
+}

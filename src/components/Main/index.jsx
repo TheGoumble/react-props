@@ -1,5 +1,7 @@
 import React from "react"
-import StudentCard from "./StudentCard"
+import StudentCard from "../StudentCard"
+import "./main.css"
+
 const student = {
   name: "Khali Gopaul",
   age: 37,
@@ -7,7 +9,7 @@ const student = {
   term: "Su22",
 }
 
-export default function Main({ name }) {
+const Main = ({ name }) => {
   return (
     <main>
       <h1>Hello {name || "Guest"}</h1>
@@ -16,3 +18,5 @@ export default function Main({ name }) {
     </main>
   )
 }
+
+export default Main

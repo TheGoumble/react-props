@@ -1,4 +1,9 @@
-body{
-  padding: 2em;
-  background-color: antiquewhite;
+#page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  gap: 3rem;
+  font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem)
 }

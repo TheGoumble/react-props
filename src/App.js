@@ -1,19 +1,21 @@
 import React, { useState } from "react"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
-import Menubar from "./components/Menubar"
 import "./App.css"
 import Coffee from "./components/Coffee"
+import Header from "./components/Header"
 
 function App() {
   const [name, setName] = useState("Mason")
 
   return (
     <>
-      <Menubar name={name} setName = {setName}/>
-      <Main name={name} />
-      <Coffee/> 
-      <Footer name ={name}/>
+      <Header name={name} setName={setName} />
+      <div id="page-content">
+        <Main name={name} />
+        <Coffee />
+      </div>
+      <Footer name={name} />
     </>
   )
 }

@@ -1,0 +1,15 @@
+#coffee-content {
+  background-color: bisque;
+  width: 50%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#coffee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: .5rem;
+}

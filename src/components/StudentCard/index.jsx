@@ -1,8 +1,9 @@
 import React from "react"
+import "./studentCard.css"
 
-export default function StudentCard({ student }) {
+const StudentCard = ({ student }) => {
   return (
-    <section>
+    <section id="student-content">
       <h2>{student.name}</h2>
       <p>Age: {student.age}</p>
       <p>Id: {student.id}</p>
@@ -10,3 +11,5 @@ export default function StudentCard({ student }) {
     </section>
   )
 }
+
+export default StudentCard
