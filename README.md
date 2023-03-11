@@ -4,7 +4,7 @@ A Simple React App that implements props that are passed through the parents int
 
 # Screenshot
 
-![Screen shot of the demo](/src/project_ss.png)
+![Screen shot of the demo](/src/react-props.png)
 
 # Demo of the app
 

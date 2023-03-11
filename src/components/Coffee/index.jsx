@@ -25,9 +25,8 @@ const Coffee = () => {
 
   return (
     <section id="coffee-content">
-      <div>
-        {" "}
-        <h2>Coffee List</h2>
+      <h2>Coffee List</h2>
+      <div id="buttons">
         <button
           onClick={() => {
             getCoffeeSync("hot")

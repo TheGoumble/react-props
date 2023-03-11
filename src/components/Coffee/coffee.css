@@ -11,5 +11,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
+}
+
+#buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
 }
